@@ -17,6 +17,13 @@ print(type(age))
 
 st.divider()
 
+selected_profession = st.selectbox("Choose your profession:", options=["Engineer", "Doctor", "Teacher", "Artist"],
+                                   index=None,accept_new_options= True)
+
+print(type(selected_profession))
+
+st.write(f"Your selected profession is : {selected_profession}")
+
 # password = st.text_input("Enter your password : ", type = "password")
 
 pressed = st.button("Submit")
