@@ -4,6 +4,12 @@ st.title("Input Media",anchor=False)
 
 st.divider()
 
+st.image("/Users/roybipro/Developer/JNBook/my-streamlit-app/images/img.jpeg")
+
+st.image("https://wallpapers.com/images/high/kawaii-yamato-one-piece-0tsu4gnz9u10nmpr.webp")
+
+st.divider()
+
 images = st.file_uploader("Upload your Image", type=["jpg", "jpeg", "png"],
                          accept_multiple_files=True)
 
@@ -15,3 +21,6 @@ if images:
     for i, per_image in enumerate(images):
         with col[i]:
             st.image(per_image) 
+            
+            
+
