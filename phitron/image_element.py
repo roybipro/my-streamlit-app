@@ -4,7 +4,7 @@ st.title("Input Media",anchor=False)
 
 st.divider()
 
-st.image("/Users/roybipro/Developer/JNBook/my-streamlit-app/images/img.jpeg")
+st.image("./images/img.jpeg")
 
 st.image("https://wallpapers.com/images/high/kawaii-yamato-one-piece-0tsu4gnz9u10nmpr.webp")
 
